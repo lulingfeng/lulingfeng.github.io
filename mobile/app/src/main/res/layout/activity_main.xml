@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/call"
+        android:text="我祖西园事"
+        android:background="#D1EEEE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/q1"
+        android:text="想到耶溪日"
+        android:background="#D1EEEE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/q2"
+        android:text="和风开阴雪"
+        android:background="#D1EEEE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/q3"
+        android:text="你程无地远"
+        android:background="#D1EEEE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/q4"
+        android:text="谈空忘外物"
+        android:background="#D1EEEE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/q5"
+        android:text="个祥因就宦"
+        android:background="#D1EEEE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/q6"
+        android:text="恋阙丹心破"
+        android:background="#D1EEEE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/q7"
+        android:text="爱君得自遂"
+        android:background="#D1EEEE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/q8"
+        android:text="巧笑倩兮"
+        android:background="#D1EEEE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/done"
+        android:text="美目盼兮"
+        android:background="#D1EEEE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/end1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/weixin"
+            android:text="llfsjy1996"
+            android:layout_width="0dp"
+            android:password="true"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/show"
+
+            android:text="show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.LinearLayoutCompat>
